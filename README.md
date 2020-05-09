@@ -6,28 +6,28 @@ https://docs.anaconda.com/anaconda/install/
 
 ## Einrichten des Environments für Qualitätsmanagment
 ### Bibs
-Nützliche Bibs für Stochastik in Python.
-Berechnung:
-SymPy: Symbolisches Rechnen (https://www.sympy.org/en/index.html)
-Wird im ersten Übungsblatt Notebook verwendet um die Normalverteilung zu integieren und Gleichungssysteme zu lösen
-Numpy: Sampling und Matrixrechnung um Schleifen zu verhindern (https://docs.scipy.org/doc/numpy/user/basics.html)
-Wird im ersten Übungsblatt Notebook zum Sampling verwendet.
-Scipy: Integrale, Mathematische Funktionen, Naturkonstanten, ...
-Wird im ersten Übungsblatt Notebook zur numerischen Integration verwendet. 
-Pandas: Datensätze einfach manipulieren, Excel/CSV einfach als Dataframe einzulesen (https://pandas.pydata.org/docs/index.html)
-Dask: Ähnlich wie Pandas nur für noch größere Datensätze (https://dask.org/)
+Nützliche Bibs für Stochastik in Python.<br>
+Berechnung:<br>
+SymPy: Symbolisches Rechnen (https://www.sympy.org/en/index.html)<br>
+Wird im ersten Übungsblatt Notebook verwendet um die Normalverteilung zu integieren und Gleichungssysteme zu lösen <br>
+Numpy: Sampling und Matrixrechnung um Schleifen zu verhindern (https://docs.scipy.org/doc/numpy/user/basics.html)<br>
+Wird im ersten Übungsblatt Notebook zum Sampling verwendet.<br>
+Scipy: Integrale, Mathematische Funktionen, Naturkonstanten, ...<br>
+Wird im ersten Übungsblatt Notebook zur numerischen Integration verwendet. <br>
+Pandas: Datensätze einfach manipulieren, Excel/CSV einfach als Dataframe einzulesen (https://pandas.pydata.org/docs/index.html)<br>
+Dask: Ähnlich wie Pandas nur für noch größere Datensätze (https://dask.org/)<br>
 
-Visualisierung:
-Matplotlib: Plots (https://matplotlib.org/3.1.1/gallery/index.html)
-Wird im ersten Übungsblatt Notebook zum einzeichnen der Integrationsgrenzen verwendet.
-Seaborn: Statische Plots basierend auf matplotlib (berechnet und zeichnet z.b. automatisch statisch relevante Daten ein wie Varianz usw. ein, https://seaborn.pydata.org/examples)/index.html)
-Wird im ersten Übungsblatt Notebook zum plotten der Verteilung und des Boxplots verwendet.
-ggplot: R-Plots in Python (http://ggplot.yhathq.com/)
-Plotly: Für interaktive Plots im jupyter notebook (https://plotly.com/python/)
+Visualisierung:<br>
+Matplotlib: Plots (https://matplotlib.org/3.1.1/gallery/index.html)<br>
+Wird im ersten Übungsblatt Notebook zum einzeichnen der Integrationsgrenzen verwendet.<br>
+Seaborn: Statische Plots basierend auf matplotlib (berechnet und zeichnet z.b. automatisch statisch relevante Daten ein wie Varianz usw. ein, https://seaborn.pydata.org/examples)/index.html)<br>
+Wird im ersten Übungsblatt Notebook zum plotten der Verteilung und des Boxplots verwendet.<br>
+ggplot: R-Plots in Python (http://ggplot.yhathq.com/)<br>
+Plotly: Für interaktive Plots im jupyter notebook (https://plotly.com/python/)<br>
 
-Jupyter Lab:
-Nützliche Extensions (Installation von manchen siehe unten)
-https://github.com/mauhai/awesome-jupyterlab
+Jupyter Lab:<br>
+Nützliche Extensions (Installation von manchen siehe unten)<br>
+https://github.com/mauhai/awesome-jupyterlab <br>
 
 ### Einrichten eines Enviroments für Qualitätsmanagment
 
@@ -69,7 +69,7 @@ Benutzung:
  - conda install -c conda-forge python-language-server r-languageserver
  
 
-Oder:
+Oder:<br>
 https://code.visualstudio.com/docs/python/jupyter-support
 Oder:
 https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html
@@ -79,8 +79,8 @@ https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html
 - cd path/to/folder e.g. cd C:\dev\qualitaetsmanagment\blatt1
 - conda activate qualitaetsmanagment 
 - jupyter lab . # Starten des Jupyter lab servers
-Es sollte sich nun ein Browser-Tab mit dem Jupyter Server öffnen
-Zum schließen:
+Es sollte sich nun ein Browser-Tab mit dem Jupyter Server öffnen <br>
+Zum schließen:<br>
 Strg+c im Anaconda Prompt
 
 
