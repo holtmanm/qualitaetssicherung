@@ -52,7 +52,9 @@ Debugger (https://github.com/jupyterlab/debugger):
  - conda install xeus-python -c conda-forge
  - pip install ptvsd
  - jupyter labextension install @jupyterlab/debugger
- Benutzung:
+
+
+Benutzung:
  ![xpython-step](https://user-images.githubusercontent.com/591645/80113902-2bc8a080-8583-11ea-8a8c-c7c0932107ae.gif)
  Jupyterlab_code_formatter (https://github.com/ryantam626/jupyterlab_code_formatter)
  - jupyter labextension install @ryantam626/jupyterlab_code_formatter
