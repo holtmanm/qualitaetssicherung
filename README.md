@@ -1,3 +1,28 @@
+# Möglichkeit 1: Docker
+Enthalten:<br>
+- Python 3.7<br>
+- Unten aufgeführte Libs
+- Jupyter Lab + Extensions ohne Variable_Inspector (wegen Kompatibilität mit neuster Jupyter Lab version)
+## Installation Docker
+On Windows: https://docs.docker.com/docker-for-windows/install/ <br>
+On Ubuntu/Debian: <br>
+- sudo apt-get install docker.io <br>
+
+### Allow mounting your Drive in Docker (Windows)
+- Rechtsklick auf Docker-Tray-Icon
+- Settings
+- Resources
+- File Sharing
+- Select local drive(s) and restart
+
+## Running the docker container
+### Open a Terminal (Linux) / Powershell (Windows) and change the path to your folder: 
+> cd path/to/folder e.g. cd C:\dev\qualitaetsmanagment\blatt1
+
+### Run the docker container
+docker run -it -p 9000:8888 --mount src="$(pwd)",target=/local,type=bind holtmannm/qzusts
+
+
 # Installation Jupyter Notebook und Tipps
 
 ## Installation Anaconda
@@ -32,18 +57,16 @@ https://github.com/mauhai/awesome-jupyterlab <br>
 ### Einrichten eines Enviroments für Qualitätsmanagment
 
  - Öffnen einer anaconda prompt (Startmenü Windows)
- - conda create -n qualitaetsmanagment # Erstellen des Environments
+ - conda create -n qualitaetsmanagment python=3.7 # Erstellen des Environments
  - conda activate qualitaetsmanagment  # Aktivieren des Environments
- - conda install conda # Installation von Python mit Standardbibs wie pip und Zertifikatdiensten
- - conda install -c conda-forge matplotlib # Installation matplotlib und numpy
- - conda install -c anaconda seaborn # Installation seaborn, pandas, scipy
- - conda install -c anaconda sympy
- - conda install ipywidgets
- - conda install -c conda-forge jupyterlab # Installation jupyter lab
- - conda install plotly plotly # Installation plotly  
+ - conda install conda anaconda seaborn sympy # Installation von Python mit Standardbibs wie pip und Zertifikatdiensten und seaborn, pandas, scipy, ipywidgets
+ - conda install -c conda-forge matplotlib jupyterlab nodejs # Installation matplotlib, jupyter lab und numpy
+ - conda update nodejs 
+ - conda install plotly # Installation plotly  
  - jupyter labextension install @jupyterlab/plotly-extension # Installation Jupyter Lab extention zum Rendern der Plotly Plots
  ### Optional (Installation Extensions) 
  Immer noch in anaconda prompt mit aktivierten Environment
+ 
 #### Lab Extensions:
  Variableninspektor (https://github.com/lckr/jupyterlab-variableInspector):
  - jupyter labextension install @lckr/jupyterlab_variableinspector 
