@@ -23,7 +23,7 @@ On Ubuntu/Debian: <br>
 docker run -it -p 9000:8888 --mount src="$(pwd)",target=/local,type=bind holtmannm/qzusts
 
 
-# Installation Jupyter Notebook und Tipps
+# Möglichkeit 2: Installation Jupyter Notebook
 
 ## Installation Anaconda
 Jupyter Notebook ist standardmäßig bei Anaconda Python mit dabei. 
