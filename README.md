@@ -65,7 +65,7 @@ https://github.com/mauhai/awesome-jupyterlab <br>
  - conda install -c conda-forge matplotlib jupyterlab nodejs # Installation matplotlib, jupyter lab und numpy
  - conda update nodejs 
  - conda install plotly # Installation plotly  
- - jupyter labextension install @jupyterlab/plotly-extension # Installation Jupyter Lab extention zum Rendern der Plotly Plots
+ - jupyter labextension install jupyterlab-plotly@4.7.1 # Installation Jupyter Lab extention zum Rendern der Plotly Plots
  ### Optional (Installation Extensions) 
  Immer noch in anaconda prompt mit aktivierten Environment
  
