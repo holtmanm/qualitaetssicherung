@@ -22,6 +22,8 @@ On Ubuntu/Debian: <br>
 ### Run the docker container
 docker run -it -p 9000:8888 --mount src="$(pwd)",target=/local,type=bind holtmannm/qzusts
 
+Then access the Jupyter Lab via Browser:
+http://localhost:9000/tree?
 
 # Möglichkeit 2: Installation Jupyter Notebook
 
